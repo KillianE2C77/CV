@@ -4,16 +4,10 @@ const CopyPlugin = require("copy-webpack-plugin");
 
 module.exports = {
   entry: path.resolve(__dirname, "./src/app.js"),
-  mode: "development",
   output: {
     filename: "[name].bundle.js",
     path: path.resolve(__dirname, "dist"),
-    publicPath: "/assets/",
     clean: true,
-  },
-  devtool: "inline-source-map",
-  devServer: {
-    static: path.resolve(__dirname, "./dist"),
   },
   optimization: {
     runtimeChunk: "single",
@@ -48,12 +42,12 @@ module.exports = {
         test: /\.m?js$/,
         exclude: /(node_modules|bower_components)/,
         use: {
-          loader: "babel-loader",
+          loader: 'babel-loader',
           options: {
-            presets: ["@babel/preset-env"],
-          },
-        },
-      },
+            presets: ['@babel/preset-env']
+          }
+        }
+      }
     ],
   },
 };
