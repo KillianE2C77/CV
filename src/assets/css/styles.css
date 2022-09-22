@@ -74,6 +74,10 @@
   color: white;
 }
 
+.text-gold {
+  color: #854d00;
+}
+
 .uppercase {
   text-transform: uppercase;
 }
