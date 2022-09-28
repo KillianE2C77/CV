@@ -66,6 +66,22 @@
   background-color: beige;
 }
 
+.bg-beigee {
+  background-color: #8b4513;
+}
+
+.bg-beigeee {
+  background-color: #daa520;
+}
+
+.bg-beigeeee {
+  border-color: #daa520;
+}
+
+.bg-pink {
+  border-color: blue;
+}
+
 .rounded-full {
   border-radius: 9999px;
 }
