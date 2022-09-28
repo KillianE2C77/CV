@@ -58,6 +58,10 @@
   height: 100vh;
 }
 
+.bg-royalblue {
+  background-color: #003a40;
+}
+
 .bg-black {
   background-color: black;
 }
