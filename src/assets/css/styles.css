@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+.mx-2 {
+  margin-left: 0.5rem;
+}
+
 .grid {
   display: grid;
 }
@@ -24,6 +28,10 @@
 
 .flex-col {
   flex-direction: column;
+}
+
+.justify-start {
+  justify-content: flex-start;
 }
 
 .justify-center {
@@ -163,4 +171,8 @@
 
 .decoration-none {
   text-decoration: none;
+}
+
+.shadow {
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
 }
